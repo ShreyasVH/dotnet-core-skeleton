@@ -30,8 +30,6 @@ public class Program
 
     private static string GetPortFromEnvironment()
     {
-        // Read the environment variable for the port, e.g., "ASPNETCORE_PORT"
-        string port = Environment.GetEnvironmentVariable("ASPNETCORE_PORT") ?? "5000";
-        return port;
+        return Environment.GetEnvironmentVariable("PORT") ?? "";
     }
 }

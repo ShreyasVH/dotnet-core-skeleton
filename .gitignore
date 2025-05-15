@@ -2,3 +2,6 @@
 bin
 obj
 .envrc
+publish
+compile.log
+server.log

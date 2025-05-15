@@ -1,4 +1,4 @@
-
+mkdir -p Properties
 
 echo '{
   "$schema": "https://json.schemastore.org/launchsettings.json",
